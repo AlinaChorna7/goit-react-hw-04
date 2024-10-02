@@ -1,0 +1,12 @@
+.ImageGallery {
+    display: flex;
+    flex-wrap: wrap; /* Дозволити перенесення елементів */
+    justify-content: center; /* Центрувати картинки */
+    padding: 20px;
+  }
+  
+  .ImageGalleryItem {
+    list-style-type: none; /* Прибрати маркери */
+    margin: 10px; /* Відстань між зображеннями */
+  }
+  

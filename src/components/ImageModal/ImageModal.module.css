@@ -1,0 +1,21 @@
+.modal {
+    position: fixed; /* Закріплює модальне вікно на екрані */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background: transparent; /* Прозорий фон, щоб не закривати задній план */
+    pointer-events: none; /* Пропускає події через фон */
+  }
+  
+  .modalImage {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0 auto;
+    pointer-events: auto; /* Взаємодія тільки із зображенням */
+  }
+  
