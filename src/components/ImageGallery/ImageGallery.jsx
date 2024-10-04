@@ -7,7 +7,7 @@ export default function ImageGallery({ images, onImageClick }) {
     <ul className={styles.ImageGallery}>
       {images.map((image) => (
         <li key={image.id} className={styles.ImageGalleryItem}>
-          {/* Передаємо повний об'єкт image */}
+          
           <ImageCard image={image} onClick={() => onImageClick(image)} />
         </li>
       ))}
